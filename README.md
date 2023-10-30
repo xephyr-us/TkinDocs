@@ -8,6 +8,7 @@ TkinDocs may be installed using the following command:
 ```bash
 pip install <packagename>
 ```
+**Package yet to be uploaded to the Python Package Index*
 
 TkinDocs is implemented exclusively using Python 3, and maintains a custom minimalist syntax. This project does not depend on XML, HTML, or any other preexisting markup language. This project's only dependency is Tkinter, a package with which most Python interpreters ship. 
 
