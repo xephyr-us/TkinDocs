@@ -1,0 +1,16 @@
+
+\root, title=TKinDoc Demo, geometry=750x500
+    \frame
+        |label, text=Label!, layout=grid, row=0, column=0, sticky=NSEW
+        |entry, layout=grid, row=0, column=1, columnspan=3, sticky=EW
+    /frame, layout=grid, row=0, column=0, sticky=NSEW
+
+    \frame
+        |button, text=1, layout=grid, row=0, column=0, sticky=NSEW
+        |button, text=2, layout=grid, row=0, column=1, sticky=NSEW
+        |button, text=3, layout=grid, row=0, column=2, sticky=NSEW
+        |button, text=4, layout=grid, row=1, column=0, sticky=NSEW
+        |button, text=5, layout=grid, row=1, column=1, sticky=NSEW
+        |button, text=6, layout=grid, row=1, column=2, sticky=NSEW
+    /frame, layout=grid, row=1, column=0, rowspan=3, sticky=NSEW
+/root
