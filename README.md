@@ -1,6 +1,6 @@
 # TkinDocs 
 ## Overview
-TkinDocs is a markup language frontend for Python's Tkinter GUI framework. This project enables a functioning GUI to be created using only a plaintext file. The user need never interact with the Tk widgets of which the GUI is made, though this functionality is present for users wishing to implement more complex user interfaces.
+TkinDocs is a markup language frontend for Python's Tkinter package. This project enables a functioning GUI to be created using only a plaintext file. The user need never interact with the Tk widgets of which the GUI is made, though this functionality is present for users wishing to implement more complex user interfaces.
 
 ## Installation
 
@@ -9,7 +9,7 @@ TkinDocs may be installed using the following command:
 pip install <packagename>
 ```
 
-TkinDocs is implemented exclusively using Python 3, and maintains a custom minimalist syntax. This project does not depend on XML, HTML, or any other preexisting markup language. This project's only dependency is Tkinter, a framework with which most Python interpreters ship. 
+TkinDocs is implemented exclusively using Python 3, and maintains a custom minimalist syntax. This project does not depend on XML, HTML, or any other preexisting markup language. This project's only dependency is Tkinter, a package with which most Python interpreters ship. 
 
 If your interpreter did not come with Tkinter installed, run the following command to install it:
 
